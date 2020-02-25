@@ -1,0 +1,59 @@
+body,
+html{
+    /* background-color: black; */
+}
+
+.container{
+    background-color: red;
+    width: 425px;
+    height: 550px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.profilephoto img{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.name{
+    font-family: 'Fjalla One';
+    text-align: left;
+    float: left;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+
+}
+
+.options img{
+    position: relative;
+    float: right;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;  
+}
+
+.photocontainer{
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+}
+
+.photo{
+    width: 100%;
+    height: 300px;
+}
